@@ -48,7 +48,7 @@ services:
 docker run -d \
   --name arch-vnc \
   -e VNC_PASSWORD="s3cr3t" \
-  -e CUSTOM_RESOLUTIONS="2048x1536,544x662" \
+  -e CUSTOM_RESOLUTIONS="1920x1002,2048x1536,544x662" \
   -p 5901:5901 
   --restart unless-stopped \
   rcribbs/arch-vnc-headless
